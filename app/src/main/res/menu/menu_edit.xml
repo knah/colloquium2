@@ -2,20 +2,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
     <item
-        android:id="@+id/action_add"
-        android:title="@string/add"
+        android:id="@+id/action_edit"
+        android:title="@string/edit_name"
         android:orderInCategory="100"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_start_vote"
-        android:title="@string/start_voting"
+        android:id="@+id/action_delete"
+        android:title="@string/delete"
         android:orderInCategory="110"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/action_clear_candidates"
-        android:title="@string/clear"
-        android:orderInCategory="120"
         app:showAsAction="never" />
 </menu>
